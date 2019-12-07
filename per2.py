@@ -1,5 +1,6 @@
 angka1 = int(input("masukkan angka pertama : "))
 angka2 = int(input("masukkan angka kedua : "))
+str(konfirmasi)
 print("operator : \n1.penjumlahan\n2.pengurangan"
         "\n3.perkalian\n4.pembagian\n")
 pilihan = int(input("masukkan pilihan : "))
