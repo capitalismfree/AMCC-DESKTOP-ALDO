@@ -1,10 +1,8 @@
 import cv2
 
-path_face = r"F:\haar_cascade\haar-cascade-files\haarcascade_frontalface_alt.xml"
-path_eye = r"F:\haar_cascade\haar-cascade-files\haarcascade_eye.xml"
 
-haar_cascade_face = cv2.CascadeClassifier(path_face)
-haar_cascade_eye = cv2.CascadeClassifier(path_eye)
+haar_cascade_face = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
+haar_cascade_eye = cv2.CascadeClassifier("haarcascade_eye.xml")
 
 cap = cv2.VideoCapture(0)
 
